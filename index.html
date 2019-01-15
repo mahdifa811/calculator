@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
+	<title>calculator</title>
+</head>
+
+<body>
+
+
+		<div class="row  mt-5">
+		
+			<div class="col-2">
+				<div class="row float-left">
+					<input class="col-3" type="button" value="1" onclick="wOne()">
+					<input class="col-3" type="button" value="2" onclick="wTwo()">
+					<input class="col-3" type="button" value="3" onclick="wThree()">
+				</div>
+				<div class="row float-left">
+					<input class="col-3" type="button" value="4" onclick="wFour()">
+					<input class="col-3" type="button" value="5" onclick="wFive()">
+					<input class="col-3" type="button" value="6" onclick="wSix()">
+				</div>
+				<div class="row float-left">
+					<input class="col-3" type="button" value="7" onclick="wSeven()">
+					<input class="col-3" type="button" value="8" onclick="wEight()">
+					<input class="col-3" type="button" value="9" onclick="wNine()">
+				</div>
+				<div class="row float-left mr-5">
+					<input class="col-3 " type="button" value="C" onclick="AC()">
+					<input class="col-3" type="button" value="0" onclick="wZeru()">
+					<input class="col-3 " id="wequal" type="button" value="=">
+				</div>
+			</div>
+			<div class="col-1">
+				<input class="d-block w-50" id="wsum" type="button" value="+">
+				<input class="d-block w-50" id="wsub" type="button" value="-">
+				<input class="d-block w-50" id="wmult" type="button" value="*">
+				<input class="d-block w-50" id="wdiv" type="button" value="/">
+	
+
+	</div>
+		
+	</div>
+		<div >
+			<p id="x"></p>
+		</div>
+
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.3.1.slim.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="calculator.js"></script>
+</body>
+
+</html>
